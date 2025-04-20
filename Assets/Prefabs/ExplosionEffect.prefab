@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &276164079404337895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 250104329855752662}
+  - component: {fileID: 3721943793637830088}
+  m_Layer: 0
+  m_Name: ExplosionEffect
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &250104329855752662
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276164079404337895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3721943793637830088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276164079404337895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fbf79380a12269448bf13b02903bcbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashBurstEffect: {fileID: 769716713953230420, guid: ef1336dc41d64a34b8c5caead2893688, type: 3}
+  fireballEffect: {fileID: 2176483702442864999, guid: b0f3f23853fe98246adf9740d61e517e, type: 3}
+  debrisEffect: {fileID: 4653887297235312532, guid: aaea3aef48ec462468b4ff9530cacae0, type: 3}
+  smokeDustEffect: {fileID: 6436798601348802822, guid: df375497b536fb44e954bb28734191f2, type: 3}
